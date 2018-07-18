@@ -1,0 +1,50 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3 {
+    color: maroon;
+}
+
+#update {
+    display: none;
+    color: white;
+    background-color: blue;
+}
+
+#add {
+    color: white;
+    background-color: blue;
+}
+
+table {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 70%;
+}
+
+table td {
+    border-bottom: 1px solid red;
+    padding: 10px;
+}
+
+table tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+table td:hover {
+    background-color: palevioletred;
+}
+input{
+    width:200px;
+    height:30px;
+    border:1px solid blue;
+    background-color: lawngreen;
+}
+table td button{
+    color:white;
+    background-color: blue;
+    width:80px;
+    height:30px;
+}
